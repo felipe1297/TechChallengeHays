@@ -1,0 +1,67 @@
+.buttonList {
+  padding: 10px;
+  background-color: rgb(103, 129, 138);
+  font-size: medium;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.titleList {
+  background-color: "blank";
+  color: "white";
+  padding: "10px 15px";
+  border: "none";
+  border-radius: "5px";
+  cursor: "pointer";
+  margin: "10px 0";
+  font-size: "1rem";
+}
+
+.divOrder {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 80%;
+  align-items: center;
+}
+
+.selectedOption {
+  margin: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.buttonAddToCar {
+  padding: 10px;
+  background-color: rgb(103, 138, 120);
+  font-size: medium;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.buttonCancel {
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(138, 103, 103);
+  font-size: medium;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.generalDiv {
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+  align-items: "center";
+}

@@ -1,0 +1,32 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: felipe1997abcd@gmail.com
+    password: iebwqgdpmsxsvffd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  datasource:
+    url: jdbc:mysql://db-hays.ccrj6dbsodsi.us-east-1.rds.amazonaws.com:3306/hays?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: admin
+    password: admin123
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: false
+  sql:
+    init:
+      platform: mysql
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+
+server:
+  port: 8080

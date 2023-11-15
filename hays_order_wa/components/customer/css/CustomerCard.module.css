@@ -1,0 +1,31 @@
+.card {
+  margin: 1px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #006fe6;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-footer {
+  background-color: #f0f0f0;
+  padding: 10px 15px;
+  text-align: right;
+}

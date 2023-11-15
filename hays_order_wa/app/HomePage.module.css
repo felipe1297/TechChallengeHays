@@ -1,0 +1,60 @@
+/* HomePage.module.css */
+
+.container {
+  text-align: center;
+  color: #333;
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.title {
+  color: #007bff;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  color: #0056b3;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+.heroImage {
+  background-image: url('/path-to-your-pizza-image.jpg');
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.orderButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.orderButton:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+
+  .heroImage {
+    height: 200px;
+  }
+}
